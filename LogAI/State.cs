@@ -220,6 +220,7 @@ namespace LogAI {
         }
 
         private void AdmissibleHeuristic() {
+            // calculate the admissible heuristic
             Heuristic = 0;
             for (int packageIndex = 0; packageIndex < Packages.Length; packageIndex++) {
                 int packageDestPlace = GlobalInfo.packageDestinations[packageIndex];
@@ -274,6 +275,7 @@ namespace LogAI {
         }
 
         private void FastHeuristic() {
+            // calculate the fast heuristic
             Heuristic = 0;
             for (int packageIndex = 0; packageIndex < Packages.Length; packageIndex++) {
                 int packageDestPlace = GlobalInfo.packageDestinations[packageIndex];
