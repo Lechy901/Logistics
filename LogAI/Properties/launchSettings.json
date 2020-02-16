@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LogAI": {
+      "commandName": "Project",
+      "commandLineArgs": "test_bigger.txt my_output.txt false"
+    }
+  }
+}
